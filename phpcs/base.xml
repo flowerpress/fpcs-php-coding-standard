@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="FPCS">
+    <description>The FPCS coding standard.</description>
+
+    <rule ref="ImportDetection"/>
+
+    <rule ref="Squiz.Commenting.FunctionComment.Missing" />
+    <rule ref="Squiz.Commenting.FunctionComment.TypeHintMissing" />
+    <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
+    <rule ref="Squiz.Commenting.VariableComment" />
+
+    <arg name="extensions" value="php"/>
+    <exclude-pattern>vendor</exclude-pattern>
+
+    <arg name="colors"/>
+</ruleset>

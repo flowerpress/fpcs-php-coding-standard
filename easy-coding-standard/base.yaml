@@ -1,0 +1,26 @@
+services:
+    PhpCsFixer\Fixer\ArrayNotation\NoWhitespaceBeforeCommaInArrayFixer: ~
+    PhpCsFixer\Fixer\ArrayNotation\TrailingCommaInMultilineArrayFixer: ~
+    PhpCsFixer\Fixer\Operator\BinaryOperatorSpacesFixer: ~
+    PhpCsFixer\Fixer\Operator\ObjectOperatorWithoutWhitespaceFixer: ~
+    PhpCsFixer\Fixer\Semicolon\NoSinglelineWhitespaceBeforeSemicolonsFixer: ~
+    PhpCsFixer\Fixer\Semicolon\SemicolonAfterInstructionFixer: ~
+    PhpCsFixer\Fixer\Semicolon\SpaceAfterSemicolonFixer: ~
+    PhpCsFixer\Fixer\Comment\MultilineCommentOpeningClosingFixer: ~
+    PhpCsFixer\Fixer\Phpdoc\NoEmptyPhpdocFixer: ~
+    PhpCsFixer\Fixer\Phpdoc\PhpdocIndentFixer: ~
+
+    SlevomatCodingStandard\Sniffs\Classes\ModernClassNameReferenceSniff: ~
+    SlevomatCodingStandard\Sniffs\Operators\DisallowEqualOperatorsSniff: ~
+    SlevomatCodingStandard\Sniffs\Namespaces\UseDoesNotStartWithBackslashSniff: ~
+    SlevomatCodingStandard\Sniffs\Namespaces\UselessAliasSniff: ~
+
+parameters:
+    exclude_files:
+        - 'vendor/*'
+        - '*/cache/*'
+
+    skip:
+        PhpCsFixer\Fixer\Import\NoUnusedImportsFixer: ~
+        SlevomatCodingStandard\Sniffs\Variables\UselessVariableSniff.UselessVariable: ~
+        PhpCsFixer\Fixer\ReturnNotation\ReturnAssignmentFixer: ~
