@@ -10,11 +10,5 @@
         "symplify/easy-coding-standard": "^6.1"
     },
     "require-dev": {
-    },
-    "repositories": {
-        "mattrabe/xsd2php": {
-            "type": "vcs",
-            "url": "https://github.com/mattrabe/xsd2php"
-        }
     }
 }
