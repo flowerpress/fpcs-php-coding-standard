@@ -1,4 +1,6 @@
 services:
+    PhpCsFixer\Fixer\ArrayNotation\ArraySyntaxFixer:
+        syntax: short
     PhpCsFixer\Fixer\ArrayNotation\NoWhitespaceBeforeCommaInArrayFixer: ~
     PhpCsFixer\Fixer\ArrayNotation\TrailingCommaInMultilineArrayFixer: ~
     PhpCsFixer\Fixer\Operator\BinaryOperatorSpacesFixer: ~
@@ -14,6 +16,7 @@ services:
     SlevomatCodingStandard\Sniffs\Operators\DisallowEqualOperatorsSniff: ~
     SlevomatCodingStandard\Sniffs\Namespaces\UseDoesNotStartWithBackslashSniff: ~
     SlevomatCodingStandard\Sniffs\Namespaces\UselessAliasSniff: ~
+    SlevomatCodingStandard\Sniffs\TypeHints\DeclareStrictTypesSniff: ~
 
 parameters:
     exclude_files:
