@@ -3,14 +3,16 @@ services:
         syntax: short
     PhpCsFixer\Fixer\ArrayNotation\NoWhitespaceBeforeCommaInArrayFixer: ~
     PhpCsFixer\Fixer\ArrayNotation\TrailingCommaInMultilineArrayFixer: ~
+    PhpCsFixer\Fixer\Comment\MultilineCommentOpeningClosingFixer: ~
     PhpCsFixer\Fixer\Operator\BinaryOperatorSpacesFixer: ~
     PhpCsFixer\Fixer\Operator\ObjectOperatorWithoutWhitespaceFixer: ~
+    PhpCsFixer\Fixer\Phpdoc\NoEmptyPhpdocFixer: ~
+    PhpCsFixer\Fixer\Phpdoc\PhpdocIndentFixer: ~
     PhpCsFixer\Fixer\Semicolon\NoSinglelineWhitespaceBeforeSemicolonsFixer: ~
     PhpCsFixer\Fixer\Semicolon\SemicolonAfterInstructionFixer: ~
     PhpCsFixer\Fixer\Semicolon\SpaceAfterSemicolonFixer: ~
-    PhpCsFixer\Fixer\Comment\MultilineCommentOpeningClosingFixer: ~
-    PhpCsFixer\Fixer\Phpdoc\NoEmptyPhpdocFixer: ~
-    PhpCsFixer\Fixer\Phpdoc\PhpdocIndentFixer: ~
+    PhpCsFixer\Fixer\Whitespace\ArrayIndentationFixer: ~
+    PhpCsFixer\Fixer\Whitespace\MethodChainingIndentationFixer: ~
 
     SlevomatCodingStandard\Sniffs\Classes\ModernClassNameReferenceSniff: ~
     SlevomatCodingStandard\Sniffs\Operators\DisallowEqualOperatorsSniff: ~
