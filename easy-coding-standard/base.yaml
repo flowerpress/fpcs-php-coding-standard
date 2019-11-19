@@ -39,7 +39,6 @@ services:
     SlevomatCodingStandard\Sniffs\Operators\DisallowEqualOperatorsSniff: ~
     SlevomatCodingStandard\Sniffs\Namespaces\UseDoesNotStartWithBackslashSniff: ~
     SlevomatCodingStandard\Sniffs\Namespaces\UselessAliasSniff: ~
-    SlevomatCodingStandard\Sniffs\TypeHints\DeclareStrictTypesSniff: ~
 
 parameters:
     exclude_files:
