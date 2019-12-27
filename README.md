@@ -1,6 +1,6 @@
 # The FPCS PHP coding standard
 
-![Packagist Version](https://img.shields.io/packagist/v/fpcs/php-coding-standard) ![PHP from Packagist](https://img.shields.io/packagist/php-v/fpcs/php-coding-standard) ![Packagist](https://img.shields.io/packagist/dt/fpcs/php-coding-standard)
+![Packagist Version](https://img.shields.io/packagist/v/fpcs/php-coding-standard) ![PHP from Packagist](https://img.shields.io/packagist/php-v/fpcs/php-coding-standard) ![Packagist Downloads](https://img.shields.io/packagist/dt/fpcs/php-coding-standard) ![Packagist License](https://img.shields.io/packagist/l/fpcs/php-coding-standard)
 
 ## Installation
 
