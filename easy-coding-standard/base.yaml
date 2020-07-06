@@ -46,7 +46,6 @@ parameters:
         - '*/cache/*'
 
     skip:
-        PhpCsFixer\Fixer\Import\NoUnusedImportsFixer: ~
         SlevomatCodingStandard\Sniffs\Classes\UnusedPrivateElementsSniff.UnusedMethod: ~
         SlevomatCodingStandard\Sniffs\Variables\UselessVariableSniff.UselessVariable: ~
         PhpCsFixer\Fixer\ReturnNotation\ReturnAssignmentFixer: ~
