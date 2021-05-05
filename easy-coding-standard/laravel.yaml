@@ -1,4 +1,0 @@
-parameters:
-    exclude_files:
-        - 'config/*'
-        - 'storage/*'
