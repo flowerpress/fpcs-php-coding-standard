@@ -1,11 +1,11 @@
 {
     "name": "fpcs/php-coding-standard",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "type": "library",
     "description": "The FPCS PHP coding standard",
     "license": "MIT",
     "require": {
-        "php": "^7.3||^7.4||^8.1",
+        "php": "^7.3||^8.0",
         "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
         "sirbrillig/phpcs-import-detection": "^1.3",
         "symplify/easy-coding-standard": "^9.3",
